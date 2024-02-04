@@ -1,0 +1,77 @@
+{
+  "item.bsroleplay.red_pirate_helmet": "Tricorne Rouge",
+  "item.bsroleplay.red_pirate_chestplate": "Vêtements de Pirates Rouge",
+  "item.bsroleplay.red_pirate_leggings": "Pantalon de Pirate Rouge",
+
+  "item.bsroleplay.blue_pirate_helmet": "Tricorne Bleu",
+  "item.bsroleplay.blue_pirate_chestplate": "Vêtements de Pirates Bleu",
+  "item.bsroleplay.blue_pirate_leggings": "Pantalon de Pirate Bleu",
+
+  "item.bsroleplay.crown": "Couronne",
+  "item.bsroleplay.mini_crown": "Petite Couronne",
+
+  "item.bsroleplay.dream_mask": "Masque de Dream",
+  "item.bsroleplay.bunny_mask": "Masque de Lapin",
+
+  "item.bsroleplay.hook": "Crochet",
+  "tooltip.bsroleplay.hook.tooltip": "Lorsque vous faites un clic droit, un Evoker Fangs apparaît",
+
+  "item.bsroleplay.dolor_en_el_pecho_carola_music_disc": "Disque de Musique",
+  "item.bsroleplay.dolor_en_el_pecho_carola_music_disc.desc": "Shivita - Dolor En El Pecho Remix",
+
+  "item.bsroleplay.judge_hammer": "Marteau du Juge",
+  "tooltip.bsroleplay.judgehammer.tooltip": "Lorsque vous faites un clic droit, cela fait un son",
+
+  "item.bsroleplay.judge_chestplate": "Robe Supérieure",
+  "item.bsroleplay.judge_leggings": "Robe Inférieure",
+  "item.bsroleplay.judge_boots": "Chaussures de Juge",
+
+  "item.bsroleplay.police_baton": "Bâton de Police",
+
+  "item.bsroleplay.police_helmet": "Casquette de Police",
+  "item.bsroleplay.police_chestplate": "Uniforme de Police",
+  "item.bsroleplay.police_leggings": "Pantalon de Police",
+  "item.bsroleplay.police_boots": "Chaussures de Police",
+
+  "item.bsroleplay.pharaoh_staff": "Bâton du Pharaon",
+  "tooltip.bsroleplay.pharaoh_staff.tooltip": "Lorsque vous faites un clic droit, un éclair apparaît",
+
+  "item.bsroleplay.halo": "Aura",
+
+  "itemgroup.bsroleplay": "BsRolePlay",
+
+  "item.bsroleplay.neanderthal_chestplate": "Vêtements en Cuir",
+
+  "item.bsroleplay.funeral_mask": "Masque Funéraire",
+
+  "item.bsroleplay.civic_crown": "Couronne Triomphale",
+
+  "item.bsroleplay.cowboy_hat": "Chapeau de Cowboy",
+  "item.bsroleplay.poncho": "Poncho",
+
+  "item.bsroleplay.happy_pill": "Pilule Heureuse",
+
+  "sounds.bsroleplay.judge_hammer_right_click": "Coup de Marteau du Juge",
+
+  "text.autoconfig.bsroleplay.title": "Banduty's Roleplay",
+  "text.autoconfig.bsroleplay.option.common.modifyPharaohStaffLightning": "Bâton du Pharaon - Éclairs",
+  "text.autoconfig.bsroleplay.option.common.modifyHookEvokerFang": "Crochet - Evoker Fang",
+  "text.autoconfig.bsroleplay.option.common.modifyJudgeHammerSound": "Marteau du Juge- Son",
+  "text.autoconfig.bsroleplay.option.common.pharaohStaffCooldown": "Bâton du Pharaon - Refroidissement",
+  "text.autoconfig.bsroleplay.option.common.pharaohStaffCooldown.@Tooltip": "En Secondes",
+  "text.autoconfig.bsroleplay.option.common.hookCooldown": "Crochet - Refroidissement",
+  "text.autoconfig.bsroleplay.option.common.hookCooldown.@Tooltip": "En Secondes",
+  "text.autoconfig.bsroleplay.option.common.judgeHammerCooldown": "Marteau du Juge - Refroidissement",
+  "text.autoconfig.bsroleplay.option.common.judgeHammerCooldown.@Tooltip": "En Secondes",
+  "text.autoconfig.bsroleplay.option.common.happyPillBlindnessTime": "Pilule Heureuse - Temps de Cécité",
+  "text.autoconfig.bsroleplay.option.common.happyPillBlindnessTime.@Tooltip": "En Secondes",
+  "text.autoconfig.bsroleplay.option.common.happyPillBlindnessChance": "Pilule Heureuse - Risque de Cécité",
+  "text.autoconfig.bsroleplay.option.common.happyPillWeaknessTime": "Pilule Heureuse - Temps de Faiblesse",
+  "text.autoconfig.bsroleplay.option.common.happyPillWeaknessTime.@Tooltip": "En Secondes",
+  "text.autoconfig.bsroleplay.option.common.happyPillWeaknessChance": "Pilule Heureuse - Risque de Faiblesse",
+  "text.autoconfig.bsroleplay.option.common.happyPillNauseaTime": "Pilule Heureuse - Temps de Nausée",
+  "text.autoconfig.bsroleplay.option.common.happyPillNauseaTime.@Tooltip": "En Secondes",
+  "text.autoconfig.bsroleplay.option.common.happyPillNauseaChance": "Pilule Heureuse - Risque de Nausée",
+  "text.autoconfig.bsroleplay.option.common.happyPillInstantHealthChance": "Pilule Heureuse-Guérison Immédiate",
+  "text.autoconfig.bsroleplay.option.common.showItemTooltips": "Info-bulles des Éléments"
+}
