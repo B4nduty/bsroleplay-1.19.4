@@ -4,7 +4,6 @@ import banduty.bsroleplay.BsRolePlay;
 import banduty.bsroleplay.item.custom.*;
 import banduty.bsroleplay.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -14,7 +13,7 @@ import net.minecraft.util.Rarity;
 
 public class ModItems {
     public static final Item DOLOR_EN_EL_PECHO_CAROLA_MUSIC_DISC = registerItem("dolor_en_el_pecho_carola_music_disc",
-            new MusicDiscItem(7, ModSounds.DOLOR_EN_EL_PECHO_CAROLA, new FabricItemSettings().rarity(Rarity.EPIC).maxCount(1), 193));
+            new MusicDiscItem(7, ModSounds.DOLOR_EN_EL_PECHO_CAROLA, new FabricItemSettings().rarity(Rarity.EPIC).maxCount(1), 113));
     public static final Item JUDGE_HAMMER = registerItem("judge_hammer",
             new JudgeHammer(new FabricItemSettings().maxCount(1).maxDamage(0).rarity(Rarity.RARE)));
 
@@ -91,7 +90,7 @@ public class ModItems {
             new CowboyItem(ModArmorMaterials.COWBOY, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().rarity(Rarity.EPIC)));
 
 
-    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
+    private static void addItemsToItemGroup() {
         addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, JUDGE_CHESTPLATE);
         addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, JUDGE_LEGGINGS);
         addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, JUDGE_BOOTS);
@@ -146,6 +145,6 @@ public class ModItems {
     public static void registerModItems() {
         BsRolePlay.LOGGER.info("Registering Mod Items for " + BsRolePlay.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
+        addItemsToItemGroup();
     }
 }
