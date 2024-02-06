@@ -3,19 +3,25 @@
   "category": "misc",
   "key": {
     "B": {
-      "item": "minecraft:blue_wool"
+      "item": "minecraft:black_wool"
+    },
+    "G": {
+      "item": "minecraft:glass"
     },
     "R": {
       "item": "bsroleplay:roleplay_core"
+    },
+    "Y": {
+      "item": "minecraft:yellow_wool"
     }
   },
   "pattern": [
-    " BB",
-    "BRB",
-    "   "
+    "YYY",
+    "BGB",
+    "BRB"
   ],
   "result": {
-    "item": "bsroleplay:police_helmet"
+    "item": "bsroleplay:protection_helmet"
   },
   "show_notification": true
 }

@@ -48,6 +48,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.BLUE_PIRATE_CHESTPLATE, Models.GENERATED);
         itemModelGenerator.register(ModItems.BLUE_PIRATE_LEGGINGS, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.PROTECTION_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PROTECTION_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PROTECTION_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PROTECTION_BOOTS, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.HOOK, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.CROWN, Models.GENERATED);

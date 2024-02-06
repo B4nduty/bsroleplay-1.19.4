@@ -9,16 +9,17 @@
       "item": "minecraft:iron_ingot"
     },
     "R": {
-      "item": "bsroleplay:roleplay_core"
+      "item": "minecraft:redstone"
     }
   },
   "pattern": [
-    " GG",
-    " G ",
-    "IRI"
+    "   ",
+    "RGR",
+    "III"
   ],
   "result": {
-    "item": "bsroleplay:hook"
+    "count": 3,
+    "item": "bsroleplay:roleplay_core"
   },
   "show_notification": true
 }

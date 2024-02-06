@@ -2,23 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "G": {
-      "item": "minecraft:gold_ingot"
-    },
-    "I": {
-      "item": "minecraft:iron_ingot"
+    "B": {
+      "item": "minecraft:black_wool"
     },
     "R": {
       "item": "bsroleplay:roleplay_core"
     }
   },
   "pattern": [
-    " GG",
-    " G ",
-    "IRI"
+    "   ",
+    "B B",
+    "BRB"
   ],
   "result": {
-    "item": "bsroleplay:hook"
+    "item": "bsroleplay:protection_boots"
   },
   "show_notification": true
 }
