@@ -19,6 +19,7 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+        itemModelGenerator.register(ModItems.ROLEPLAY_CORE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.JUDGE_HAMMER, Models.HANDHELD);
 
