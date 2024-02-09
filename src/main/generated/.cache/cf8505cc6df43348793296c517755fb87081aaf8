@@ -1,4 +1,4 @@
-// 1.19.4	2024-02-07T12:13:36.4026633	BsRolePlay/Model Definitions
+// 1.19.4	2024-02-09T22:19:15.6821702	BsRolePlay/Model Definitions
 4398218872f8760d3ef092fafa4c7e6f8ce63770 assets\bsroleplay\models\item\judge_chestplate_redstone_trim.json
 48d1c03a58d8d0f050aad60f8079526430155f6c assets\bsroleplay\models\item\police_chestplate_netherite_trim.json
 30df2ad995f85fd6b5572e4d86aa8e1990f0e7f3 assets\bsroleplay\models\item\police_leggings_redstone_trim.json
@@ -81,8 +81,8 @@ f141e5a28a4437cb0409007b25fe203a84459978 assets\bsroleplay\models\item\judge_che
 bb42aaeaf94298ad157fbaafa301faf2e3ccdafb assets\bsroleplay\models\item\judge_boots_gold_trim.json
 88a180fb4b29d05d6d438ce184169299fe0163c1 assets\bsroleplay\models\item\judge_boots_redstone_trim.json
 4c6c05caeb0779589935bbfbce0debdd31f63d3f assets\bsroleplay\models\item\protection_helmet.json
-2eac29e2b87a68d780fe5d0ad91b9e014e721c11 assets\bsroleplay\models\item\police_leggings_netherite_trim.json
 a0f85c7b445a065798f0aafc4c1c4923132310c0 assets\bsroleplay\models\item\judge_boots_quartz_trim.json
+2eac29e2b87a68d780fe5d0ad91b9e014e721c11 assets\bsroleplay\models\item\police_leggings_netherite_trim.json
 7280eca09a5bc41ca538bf310237cfe5f3bae2de assets\bsroleplay\models\item\crown.json
 5c52f0160e33816e58ea1ac4b3ea16556d4408dd assets\bsroleplay\models\item\police_boots_emerald_trim.json
 107cbe2443460f5d17fbb4db0fd1d2f7547f86c5 assets\bsroleplay\models\item\police_leggings_copper_trim.json
