@@ -14,6 +14,8 @@ import net.minecraft.util.Rarity;
 public class ModItems {
     public static final Item ROLEPLAY_CORE = registerItem("roleplay_core",
             new RoleplayCore(new FabricItemSettings().rarity(Rarity.UNCOMMON)));
+    public static final Item PILL_CORE = registerItem("pill_core",
+            new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON)));
     public static final Item DOLOR_EN_EL_PECHO_CAROLA_MUSIC_DISC = registerItem("dolor_en_el_pecho_carola_music_disc",
             new MusicDiscItem(7, ModSounds.DOLOR_EN_EL_PECHO_CAROLA, new FabricItemSettings().rarity(Rarity.EPIC).maxCount(1), 113));
     public static final Item JUDGE_HAMMER = registerItem("judge_hammer",
@@ -76,7 +78,7 @@ public class ModItems {
             new RomanEmperorItem(ModArmorMaterials.ROMAN, ArmorItem.Type.HELMET, new FabricItemSettings()));
 
     public static final Item HAPPY_PILL= registerItem("happy_pill",
-            new Item(new FabricItemSettings().food(ModFoodComponents.PILL).maxCount(BsRolePlay.CONFIG.common.getHappyPillMaxStack()).rarity(Rarity.RARE)));
+            new Item(new FabricItemSettings().food(ModFoodComponents.HAPPY_PILL).maxCount(BsRolePlay.CONFIG.common.getHappyPillMaxStack()).rarity(Rarity.RARE)));
 
     public static final Item COWBOY_HAT= registerItem("cowboy_hat",
             new CowboyItem(ModArmorMaterials.COWBOY, ArmorItem.Type.HELMET, new FabricItemSettings()));
@@ -93,9 +95,17 @@ public class ModItems {
     public static final Item PROTECTION_BOOTS= registerItem("protection_boots",
             new ProtectionClothingItem(ModArmorMaterials.PROTECTION, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
+    public static final Item DEALER= registerItem("dealer",
+            new DealerItem(ModArmorMaterials.MASK, ArmorItem.Type.HELMET, new FabricItemSettings()));
+
+    public static final Item SAD_PILL= registerItem("sad_pill",
+            new SadPill(new FabricItemSettings().maxCount(3).rarity(Rarity.RARE)));
+
+
 
     private static void addItemsToItemGroup() {
         addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, ROLEPLAY_CORE);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, PILL_CORE);
 
         addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, POLICE_HELMET);
         addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, POLICE_CHESTPLATE);
@@ -117,6 +127,7 @@ public class ModItems {
 
         addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, DREAM_MASK);
         addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, BUNNY_MASK);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, DEALER);
 
         addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, NEANDERTHAL_CHESTPLATE);
 
@@ -140,6 +151,7 @@ public class ModItems {
         addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, DOLOR_EN_EL_PECHO_CAROLA_MUSIC_DISC);
 
         addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, HAPPY_PILL);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, SAD_PILL);
     }
 
     private static void addToItemGroup(ItemGroup group, Item item) {
