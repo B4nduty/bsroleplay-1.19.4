@@ -18,6 +18,7 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+
         itemModelGenerator.register(ModItems.ROLEPLAY_CORE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.JUDGE_HAMMER, Models.HANDHELD);
@@ -28,6 +29,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.POLICE_CHESTPLATE, Models.GENERATED);
         itemModelGenerator.register(ModItems.POLICE_LEGGINGS, Models.GENERATED);
         itemModelGenerator.register(ModItems.POLICE_BOOTS, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.PROTECTION_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PROTECTION_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PROTECTION_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PROTECTION_BOOTS, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.PHARAOH_STAFF, Models.HANDHELD);
 
@@ -42,11 +48,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.BLUE_PIRATE_HELMET, Models.GENERATED);
         itemModelGenerator.register(ModItems.BLUE_PIRATE_CHESTPLATE, Models.GENERATED);
         itemModelGenerator.register(ModItems.BLUE_PIRATE_LEGGINGS, Models.GENERATED);
-
-        itemModelGenerator.register(ModItems.PROTECTION_HELMET, Models.GENERATED);
-        itemModelGenerator.register(ModItems.PROTECTION_CHESTPLATE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.PROTECTION_LEGGINGS, Models.GENERATED);
-        itemModelGenerator.register(ModItems.PROTECTION_BOOTS, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.HOOK, Models.HANDHELD);
 
@@ -72,5 +73,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SAD_PILL, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.PILL_CORE, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.GADGET_HAT, Models.GENERATED);
     }
 }

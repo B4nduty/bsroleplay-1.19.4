@@ -1,6 +1,7 @@
 package banduty.bsroleplay.item;
 
 import banduty.bsroleplay.BsRolePlay;
+import banduty.bsroleplay.block.ModBlock;
 import banduty.bsroleplay.item.custom.*;
 import banduty.bsroleplay.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -101,11 +102,17 @@ public class ModItems {
     public static final Item SAD_PILL= registerItem("sad_pill",
             new SadPill(new FabricItemSettings().maxCount(BsRolePlay.CONFIG.common.getSadPillMaxStack()).rarity(Rarity.RARE)));
 
+    public static final Item HOLY_CLOUD_STATUE_ITEM= registerItem("holy_cloud_statue",
+            new HolyCloudStatueItem(ModBlock.HOLY_CLOUD_STATUE, new FabricItemSettings().rarity(Rarity.EPIC).maxCount(1)));
+
+    public static final Item GADGET_HAT= registerItem("gadget_hat",
+            new GadgetArmor(ModArmorMaterials.MASK, ArmorItem.Type.HELMET, new FabricItemSettings()));
 
 
     private static void addItemsToItemGroup() {
         addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, ROLEPLAY_CORE);
         addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, PILL_CORE);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, HOLY_CLOUD_STATUE_ITEM);
 
         addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, POLICE_HELMET);
         addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, POLICE_CHESTPLATE);
@@ -140,6 +147,8 @@ public class ModItems {
 
         addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, COWBOY_HAT);
         addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, PONCHO);
+
+        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, GADGET_HAT);
 
         addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, HALO);
 
