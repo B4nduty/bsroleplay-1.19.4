@@ -1,14 +1,14 @@
-// 1.19.4	2024-02-22T23:12:37.3290458	BsRolePlay/Model Definitions
-a852149e0f365e99de72f244ee79130c64a555ec assets\bsroleplay\models\item\halo.json
+// 1.19.4	2024-02-24T01:03:51.1867782	BsRolePlay/Model Definitions
 3b14fc4ae4c02bc61101143daf0a4848fa20fa15 assets\bsroleplay\models\item\dealer.json
+a852149e0f365e99de72f244ee79130c64a555ec assets\bsroleplay\models\item\halo.json
 94a6653ec29444ce864bebff85c960551d17293a assets\bsroleplay\models\item\dolor_en_el_pecho_carola_music_disc.json
 37d92e87ace6ac3d3994128a6f52a4c5387a8382 assets\bsroleplay\models\item\police_helmet.json
 73982755a7167b5604b678947715473a988eec29 assets\bsroleplay\models\item\roleplay_core.json
 84ec0fb2d662405abec089bc813e5b5c659349d3 assets\bsroleplay\models\item\blue_pirate_chestplate.json
 8706a117b5623d8b847fa8413e4b73e0d4b067c0 assets\bsroleplay\models\item\red_pirate_chestplate.json
 802a0e72f0bd7c12e342c87f15e773c495c47bfd assets\bsroleplay\models\item\happy_pill.json
-acb694ad46b5a274ee03fb7a83d1a4ac800e5a0d assets\bsroleplay\models\item\protection_leggings.json
 6849e37ac445f69c8aef0448cce5d7716bcb46c2 assets\bsroleplay\models\item\funeral_mask.json
+acb694ad46b5a274ee03fb7a83d1a4ac800e5a0d assets\bsroleplay\models\item\protection_leggings.json
 3b22be818569d3cc2367cce832c3aecd6968262f assets\bsroleplay\models\item\cowboy_hat.json
 e9a226fef62cf8c5159d304d3fa12e1914e81b24 assets\bsroleplay\models\item\dream_mask.json
 581523d0dfedce690dcffc025548baaa4a42d092 assets\bsroleplay\models\item\blue_pirate_leggings.json
@@ -32,5 +32,5 @@ d6a7c08985ecbfb795bee350ed00b835ffdd8f65 assets\bsroleplay\models\item\pharaoh_s
 795f13aa1ff70ff7c4b0454cf46fb312ad8e32dc assets\bsroleplay\models\item\blue_pirate_helmet.json
 682244f2c8c786616dde28b802fa702b98392d19 assets\bsroleplay\models\item\civic_crown.json
 2309a31b971480d9526939ab61b6c4ff524dc5d4 assets\bsroleplay\models\item\police_boots.json
-4df237b263989b5c154f00a2e100795a52581021 assets\bsroleplay\models\item\police_chestplate.json
 9e9252e21c525f5cd7beb1c5ea6c66f11f32f764 assets\bsroleplay\models\item\gadget_hat.json
+4df237b263989b5c154f00a2e100795a52581021 assets\bsroleplay\models\item\police_chestplate.json
