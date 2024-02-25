@@ -12,7 +12,7 @@
 		"sources": "https://www.curseforge.com/minecraft/mc-mods/bandutys-roleplay"
 	},
 	"license": "GNU GENERAL PUBLIC LICENSE",
-	"icon": "assets/bsroleplay/textures/item/crown.png",
+	"icon": "assets/bsroleplay/textures/item/roleplay_core.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

@@ -13,6 +13,6 @@ public class ModItemGroups {
     public static void registerItemGroups() {
         BSROLEPLAY_GROUP = FabricItemGroup.builder(new Identifier(BsRolePlay.MOD_ID, "roleplay_core"))
                 .displayName(Text.translatable("itemgroup.bsroleplay"))
-                .icon(() -> new ItemStack(ModItems.CROWN)).build();
+                .icon(() -> new ItemStack(ModItems.ROLEPLAY_CORE)).build();
     }
 }
