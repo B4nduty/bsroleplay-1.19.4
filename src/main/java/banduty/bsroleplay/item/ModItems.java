@@ -31,11 +31,11 @@ public class ModItems {
     public static final Item POLICE_HELMET = registerItem("police_helmet",
             new PoliceArmorItem(ModArmorMaterials.POLICE, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item POLICE_CHESTPLATE = registerItem("police_chestplate",
-            new ArmorItem(ModArmorMaterials.POLICE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+            new PoliceArmorItem(ModArmorMaterials.POLICE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item POLICE_LEGGINGS = registerItem("police_leggings",
-            new ArmorItem(ModArmorMaterials.POLICE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+            new PoliceArmorItem(ModArmorMaterials.POLICE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item POLICE_BOOTS = registerItem("police_boots",
-            new ArmorItem(ModArmorMaterials.POLICE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+            new PoliceArmorItem(ModArmorMaterials.POLICE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     public static final Item HALO = registerItem("halo",
             new HaloItem(ModArmorMaterials.HOLY, ArmorItem.Type.HELMET, new FabricItemSettings().rarity(Rarity.EPIC)));
@@ -108,59 +108,70 @@ public class ModItems {
     public static final Item GADGET_HAT= registerItem("gadget_hat",
             new GadgetArmor(ModArmorMaterials.MASK, ArmorItem.Type.HELMET, new FabricItemSettings()));
 
+    public static final Item LAWYER_BLACKBLUE_CHESTPLATE= registerItem("lawyer_blackblue_chestplate",
+            new LawyerBlackAndBlueItem(ModArmorMaterials.MASK, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item LAWYER_BLACKGOLD_CHESTPLATE= registerItem("lawyer_blackgold_chestplate",
+            new LawyerBlackAndGoldItem(ModArmorMaterials.MASK, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item LAWYER_BLACKRED_CHESTPLATE= registerItem("lawyer_blackred_chestplate",
+            new LawyerBlackAndRedItem(ModArmorMaterials.MASK, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item LAWYER_LEGGINGS_BLACK= registerItem("lawyer_leggings_black",
+            new LawyerBlackAndBlueItem(ModArmorMaterials.MASK, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item LAWYER_BOOTS_BLACK= registerItem("lawyer_boots_black",
+            new LawyerBlackAndBlueItem(ModArmorMaterials.MASK, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item LAWYER_PURPLERED_CHESTPLATE= registerItem("lawyer_purplered_chestplate",
+            new LawyerPurpleAndRedItem(ModArmorMaterials.MASK, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item LAWYER_LEGGINGS_PURPLE= registerItem("lawyer_leggings_purple",
+            new LawyerPurpleAndRedItem(ModArmorMaterials.MASK, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item LAWYER_BOOTS_PURPLE= registerItem("lawyer_boots_purple",
+            new LawyerPurpleAndRedItem(ModArmorMaterials.MASK, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
 
     private static void addItemsToItemGroup() {
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, ROLEPLAY_CORE);
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, PILL_CORE);
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, HOLY_CLOUD_STATUE_ITEM);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, ROLEPLAY_CORE);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, PILL_CORE);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, JUDGE_HAMMER);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, POLICE_BATON);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, HOOK);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, PHARAOH_STAFF);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, DOLOR_EN_EL_PECHO_CAROLA_MUSIC_DISC);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, HAPPY_PILL);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, SAD_PILL);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, HOLY_CLOUD_STATUE_ITEM);
 
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, POLICE_HELMET);
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, POLICE_CHESTPLATE);
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, POLICE_LEGGINGS);
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, POLICE_BOOTS);
-
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, PROTECTION_HELMET);
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, PROTECTION_CHESTPLATE);
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, PROTECTION_LEGGINGS);
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, PROTECTION_BOOTS);
-
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, RED_PIRATE_HELMET);
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, RED_PIRATE_CHESTPLATE);
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, RED_PIRATE_LEGGINGS);
-
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, BLUE_PIRATE_HELMET);
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, BLUE_PIRATE_CHESTPLATE);
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, BLUE_PIRATE_LEGGINGS);
-
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, DREAM_MASK);
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, BUNNY_MASK);
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, DEALER);
-
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, NEANDERTHAL_CHESTPLATE);
-
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, FUNERAL_MASK);
-
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, CROWN);
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, MINI_CROWN);
-
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, CIVIC_CROWN);
-
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, COWBOY_HAT);
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, PONCHO);
-
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, GADGET_HAT);
-
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, HALO);
-
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, JUDGE_HAMMER);
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, POLICE_BATON);
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, HOOK);
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, PHARAOH_STAFF);
-
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, DOLOR_EN_EL_PECHO_CAROLA_MUSIC_DISC);
-
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, HAPPY_PILL);
-        addToItemGroup(ModItemGroups.BSROLEPLAY_GROUP, SAD_PILL);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, POLICE_HELMET);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, POLICE_CHESTPLATE);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, POLICE_LEGGINGS);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, POLICE_BOOTS);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, LAWYER_BLACKBLUE_CHESTPLATE);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, LAWYER_BLACKGOLD_CHESTPLATE);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, LAWYER_BLACKRED_CHESTPLATE);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, LAWYER_LEGGINGS_BLACK);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, LAWYER_BOOTS_BLACK);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, LAWYER_PURPLERED_CHESTPLATE);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, LAWYER_LEGGINGS_PURPLE);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, LAWYER_BOOTS_PURPLE);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, RED_PIRATE_HELMET);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, RED_PIRATE_CHESTPLATE);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, RED_PIRATE_LEGGINGS);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, BLUE_PIRATE_HELMET);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, BLUE_PIRATE_CHESTPLATE);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, BLUE_PIRATE_LEGGINGS);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, COWBOY_HAT);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, PONCHO);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, PROTECTION_HELMET);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, PROTECTION_CHESTPLATE);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, PROTECTION_LEGGINGS);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, PROTECTION_BOOTS);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, GADGET_HAT);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, DREAM_MASK);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, BUNNY_MASK);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, DEALER);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, NEANDERTHAL_CHESTPLATE);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, FUNERAL_MASK);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, CROWN);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, MINI_CROWN);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, CIVIC_CROWN);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, HALO);
     }
 
     private static void addToItemGroup(ItemGroup group, Item item) {
