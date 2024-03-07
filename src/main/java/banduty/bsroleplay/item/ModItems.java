@@ -124,11 +124,20 @@ public class ModItems {
             new LawyerPurpleAndRedItem(ModArmorMaterials.MASK, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item LAWYER_BOOTS_PURPLE= registerItem("lawyer_boots_purple",
             new LawyerPurpleAndRedItem(ModArmorMaterials.MASK, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item BRIEFCASE= registerItem("briefcase",
+            new BriefCase(new FabricItemSettings().maxCount(1)));
+    public static final Item BLACK_BRIEFCASE= registerItem("black_briefcase",
+            new BlackBriefCase(new FabricItemSettings().maxCount(1)));
+    public static final Item VIOLET_BRIEFCASE= registerItem("purple_briefcase",
+            new VioletBriefCase(new FabricItemSettings().maxCount(1)));
 
 
     private static void addItemsToItemGroup() {
         addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, ROLEPLAY_CORE);
         addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, PILL_CORE);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, BRIEFCASE);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, BLACK_BRIEFCASE);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, VIOLET_BRIEFCASE);
         addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, JUDGE_HAMMER);
         addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, POLICE_BATON);
         addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, HOOK);
@@ -136,7 +145,8 @@ public class ModItems {
         addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, DOLOR_EN_EL_PECHO_CAROLA_MUSIC_DISC);
         addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, HAPPY_PILL);
         addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, SAD_PILL);
-        addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, HOLY_CLOUD_STATUE_ITEM);
+
+        addToItemGroup(ModItemGroups.BSROLEPLAY_BLOCK_GROUP, HOLY_CLOUD_STATUE_ITEM);
 
         addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, POLICE_HELMET);
         addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, POLICE_CHESTPLATE);
