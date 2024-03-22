@@ -78,6 +78,9 @@ public class ModItems {
     public static final Item CIVIC_CROWN= registerItem("civic_crown",
             new RomanEmperorItem(ModArmorMaterials.ROMAN, ArmorItem.Type.HELMET, new FabricItemSettings()));
 
+    public static final Item ROMAN_TOGA = registerItem("roman_toga",
+            new RomanEmperorItem(ModArmorMaterials.ROMAN, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+
     public static final Item HAPPY_PILL= registerItem("happy_pill",
             new Item(new FabricItemSettings().food(ModFoodComponents.HAPPY_PILL).maxCount(BsRolePlay.CONFIG.common.getHappyPillMaxStack()).rarity(Rarity.RARE)));
 
@@ -131,6 +134,9 @@ public class ModItems {
     public static final Item VIOLET_BRIEFCASE= registerItem("purple_briefcase",
             new VioletBriefCase(new FabricItemSettings().maxCount(1)));
 
+    public static final Item TINY_BANDUTY_ITEM= registerItem("tiny_banduty",
+            new TinyBandutyItem(ModBlock.TINY_BANDUTY, new FabricItemSettings().rarity(Rarity.EPIC).maxCount(1)));
+
 
     private static void addItemsToItemGroup() {
         addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, ROLEPLAY_CORE);
@@ -147,6 +153,7 @@ public class ModItems {
         addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, SAD_PILL);
 
         addToItemGroup(ModItemGroups.BSROLEPLAY_BLOCK_GROUP, HOLY_CLOUD_STATUE_ITEM);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_BLOCK_GROUP, TINY_BANDUTY_ITEM);
 
         addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, POLICE_HELMET);
         addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, POLICE_CHESTPLATE);
@@ -181,6 +188,7 @@ public class ModItems {
         addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, CROWN);
         addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, MINI_CROWN);
         addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, CIVIC_CROWN);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, ROMAN_TOGA);
         addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, HALO);
     }
 

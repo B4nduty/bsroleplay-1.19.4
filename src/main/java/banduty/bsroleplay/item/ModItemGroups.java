@@ -19,7 +19,7 @@ public class ModItemGroups {
 
         BSROLEPLAY_BLOCK_GROUP = FabricItemGroup.builder(new Identifier(BsRolePlay.MOD_ID, "roleplay_block"))
                 .displayName(Text.literal("BsRoleplay Block"))
-                .icon(() -> new ItemStack(ModItems.HOLY_CLOUD_STATUE_ITEM)).build();
+                .icon(() -> new ItemStack(ModItems.TINY_BANDUTY_ITEM)).build();
 
         BSROLEPLAY_ARMOR_GROUP = FabricItemGroup.builder(new Identifier(BsRolePlay.MOD_ID, "roleplay_armor"))
                 .displayName(Text.literal("BsRoleplay Armor"))
