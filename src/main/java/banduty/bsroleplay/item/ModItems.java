@@ -137,6 +137,11 @@ public class ModItems {
     public static final Item TINY_BANDUTY_ITEM= registerItem("tiny_banduty",
             new TinyBandutyItem(ModBlock.TINY_BANDUTY, new FabricItemSettings().rarity(Rarity.EPIC).maxCount(1)));
 
+    public static final Item HANDCUFFS= registerItem("handcuffs",
+            new HandCuffs(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON)));
+    public static final Item HANDCUFFS_KEY= registerItem("handcuffs_key",
+            new HandcuffsKey(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON)));
+
 
     private static void addItemsToItemGroup() {
         addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, ROLEPLAY_CORE);
@@ -146,6 +151,8 @@ public class ModItems {
         addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, VIOLET_BRIEFCASE);
         addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, JUDGE_HAMMER);
         addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, POLICE_BATON);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, HANDCUFFS);
+        addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, HANDCUFFS_KEY);
         addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, HOOK);
         addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, PHARAOH_STAFF);
         addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, DOLOR_EN_EL_PECHO_CAROLA_MUSIC_DISC);

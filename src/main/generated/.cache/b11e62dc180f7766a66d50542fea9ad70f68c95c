@@ -1,4 +1,5 @@
-// 1.19.4	2024-03-17T23:21:19.7593917	BsRolePlay/Recipes
+// 1.19.4	2024-03-29T02:03:49.369591	BsRolePlay/Recipes
+a7cbdc5e88678e63b56244c55514c58c430a5701 data\bsroleplay\advancements\recipes\misc\handcuffs_key.json
 64b1c45c547f1b70dd481516060225523bf2208e data\bsroleplay\advancements\recipes\misc\judge_hammer.json
 9d3e4f2a029707730d47a4698dd3629dcfb96d58 data\bsroleplay\recipes\lawyer_purplered_chestplate_3.json
 7abd1f44ec9840cff12185ddd6e6ff975def8231 data\bsroleplay\recipes\lawyer_blackgold_chestplate_2.json
@@ -19,6 +20,7 @@ af6aa17eacdd0fa5dfec72a926e64e3ee5962a9b data\bsroleplay\recipes\lawyer_blackred
 2961907327241157fd4923ce209a1273cb560e78 data\bsroleplay\advancements\recipes\misc\neanderthal_chestplate.json
 1f787299d01788be076b604c93a217311f34a34d data\bsroleplay\recipes\lawyer_boots_purple_1.json
 6d78d0a9a532397bfb8cf898cb47768d10bee697 data\bsroleplay\advancements\recipes\misc\sad_pill.json
+8909e4e8072570913aa58a9f29259baed57e6f6f data\bsroleplay\advancements\recipes\misc\handcuffs.json
 f82d6251ef08929482b3fcbf51009f5219d714f0 data\bsroleplay\advancements\recipes\misc\red_pirate_helmet.json
 c72cfeb340fc8e61b1480c5e58f7d762398741e0 data\bsroleplay\advancements\recipes\misc\cowboy_hat.json
 0270cbb478c882a30ee41be9d8595c3006043b12 data\bsroleplay\advancements\recipes\misc\dealer.json
@@ -31,7 +33,9 @@ fb01436ff734c3f60433715f6837160d93f07a68 data\bsroleplay\advancements\recipes\mi
 5d783ebb65aa1b60350b4ffbe8fba37acff8a9a5 data\bsroleplay\advancements\recipes\misc\lawyer_leggings_purple_1.json
 82e0eff2864b67a0f16d803a55907065c73a863c data\bsroleplay\advancements\recipes\misc\lawyer_leggings_black_2.json
 4cb86514870351205c3b97ee8763ce0ed2cfdae8 data\bsroleplay\advancements\recipes\misc\purple_briefcase.json
+7949e7ef92c70f5dcad8c4fd4aeb2d8b63ef87d7 data\bsroleplay\recipes\handcuffs_key.json
 c79702215eff51ceae2c442beff5171f2b71b8b7 data\bsroleplay\advancements\recipes\misc\protection_chestplate.json
+739db60893ea55e4c8b18a0ebe00cef99db85f29 data\bsroleplay\recipes\handcuffs.json
 3784e9a8537a8e021098ebd62460295acae76f47 data\bsroleplay\recipes\lawyer_leggings_purple_2.json
 281af87b3206e979eb03fb4424321098ce2f4efa data\bsroleplay\recipes\black_briefcase.json
 22a2a4ee07de6d3d624078fdf58c5654fecc3745 data\bsroleplay\recipes\protection_helmet.json
@@ -46,8 +50,8 @@ e611451d31b1658be5c8d0252bf4a1c7c107c68e data\bsroleplay\recipes\briefcase.json
 6ffda798a9311df93153fcd28a1da64a4237dd31 data\bsroleplay\advancements\recipes\misc\police_boots.json
 6f2b835a34c7c39a0e55434ed4583cdafaf74bd9 data\bsroleplay\advancements\recipes\misc\briefcase.json
 549de507f60461066196dc6226fbdfe25e8e5200 data\bsroleplay\recipes\bunny_mask.json
-b6e55f43e4ad33dc3e96dc4c6ef51dd7b7a39d4e data\bsroleplay\advancements\recipes\misc\happy_pill.json
 658d7729eba1cae2e90957bbcbf4c2e6b16769d9 data\bsroleplay\advancements\recipes\misc\protection_leggings.json
+b6e55f43e4ad33dc3e96dc4c6ef51dd7b7a39d4e data\bsroleplay\advancements\recipes\misc\happy_pill.json
 0bcad9deb6f936a2ce8f1560bf43c9bba0819763 data\bsroleplay\advancements\recipes\misc\roman_toga.json
 f9c82606741c1f4ace78bad4b4c679ef7167a637 data\bsroleplay\recipes\lawyer_blackblue_chestplate_1.json
 4f6908bf439d939fac6c22970fc70bb6da6a8854 data\bsroleplay\advancements\recipes\misc\lawyer_blackblue_chestplate_1.json
