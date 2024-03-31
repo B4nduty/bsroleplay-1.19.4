@@ -1,4 +1,4 @@
-// 1.19.4	2024-03-29T02:03:49.3775863	BsRolePlay/Model Definitions
+// 1.19.4	2024-03-31T22:33:50.7917571	BsRolePlay/Model Definitions
 3b14fc4ae4c02bc61101143daf0a4848fa20fa15 assets\bsroleplay\models\item\dealer.json
 a852149e0f365e99de72f244ee79130c64a555ec assets\bsroleplay\models\item\halo.json
 5438564054ddf0717e0d7907fe4025793dd542a5 assets\bsroleplay\models\item\lawyer_boots_black.json
@@ -38,9 +38,10 @@ e8a7ff6250b6cf7b4453674fb15c8b05f76eae90 assets\bsroleplay\models\item\handcuffs
 587af49eb94617e5d40366b541a2f6bb7be30dd1 assets\bsroleplay\models\item\hook.json
 8ee785112c929ac99826f79cac75e2aad72b733b assets\bsroleplay\models\item\pill_core.json
 df0fdcacaf612440f3f137e4ff0f9273d3036e0c assets\bsroleplay\models\item\protection_boots.json
-795f13aa1ff70ff7c4b0454cf46fb312ad8e32dc assets\bsroleplay\models\item\blue_pirate_helmet.json
 d6a7c08985ecbfb795bee350ed00b835ffdd8f65 assets\bsroleplay\models\item\pharaoh_staff.json
+795f13aa1ff70ff7c4b0454cf46fb312ad8e32dc assets\bsroleplay\models\item\blue_pirate_helmet.json
 efd2a3edfa4d3a73b02fa696f26d9bea5d37e4aa assets\bsroleplay\models\item\handcuffs_key.json
+25300490f62182d6f780576eb6145acdd21553a6 assets\bsroleplay\models\item\gods_handcuffs.json
 682244f2c8c786616dde28b802fa702b98392d19 assets\bsroleplay\models\item\civic_crown.json
 2309a31b971480d9526939ab61b6c4ff524dc5d4 assets\bsroleplay\models\item\police_boots.json
 9e9252e21c525f5cd7beb1c5ea6c66f11f32f764 assets\bsroleplay\models\item\gadget_hat.json
