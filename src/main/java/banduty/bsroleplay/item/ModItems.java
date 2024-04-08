@@ -105,9 +105,6 @@ public class ModItems {
     public static final Item SAD_PILL= registerItem("sad_pill",
             new SadPill(new FabricItemSettings().maxCount(BsRolePlay.CONFIG.common.getSadPillMaxStack()).rarity(Rarity.RARE)));
 
-    public static final Item HOLY_CLOUD_STATUE_ITEM= registerItem("holy_cloud_statue",
-            new HolyCloudStatueItem(ModBlock.HOLY_CLOUD_STATUE, new FabricItemSettings().rarity(Rarity.EPIC).maxCount(1)));
-
     public static final Item GADGET_HAT= registerItem("gadget_hat",
             new GadgetArmor(ModArmorMaterials.MASK, ArmorItem.Type.HELMET, new FabricItemSettings()));
 
@@ -162,7 +159,6 @@ public class ModItems {
         addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, SAD_PILL);
         addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, DOLOR_EN_EL_PECHO_CAROLA_MUSIC_DISC);
 
-        addToItemGroup(ModItemGroups.BSROLEPLAY_BLOCK_GROUP, HOLY_CLOUD_STATUE_ITEM);
         addToItemGroup(ModItemGroups.BSROLEPLAY_BLOCK_GROUP, TINY_BANDUTY_ITEM);
 
         addToItemGroup(ModItemGroups.BSROLEPLAY_ARMOR_GROUP, POLICE_HELMET);
