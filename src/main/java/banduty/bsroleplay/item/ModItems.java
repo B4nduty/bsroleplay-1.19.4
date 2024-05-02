@@ -7,7 +7,6 @@ import banduty.bsroleplay.item.custom.blocks.TinyBandutyItem;
 import banduty.bsroleplay.item.custom.blocks.currency.CoinStackItem;
 import banduty.bsroleplay.item.custom.blocks.currency.RPCoinItem;
 import banduty.bsroleplay.item.custom.item.*;
-import banduty.bsroleplay.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
@@ -22,8 +21,6 @@ public class ModItems {
     public static final Item FUSION_CORE = registerItem("fusion_core",
             new Item(new FabricItemSettings()));
 
-    public static final Item DOLOR_EN_EL_PECHO_CAROLA_MUSIC_DISC = registerItem("dolor_en_el_pecho_carola_music_disc",
-            new MusicDiscItem(7, ModSounds.DOLOR_EN_EL_PECHO_CAROLA, new FabricItemSettings().rarity(Rarity.EPIC).maxCount(1), 113));
     public static final Item JUDGE_HAMMER = registerItem("judge_hammer",
             new JudgeHammer(new FabricItemSettings().maxCount(1).maxDamage(0).rarity(Rarity.UNCOMMON)));
 
@@ -183,7 +180,6 @@ public class ModItems {
         addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, PHARAOH_STAFF);
         addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, HAPPY_PILL);
         addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, SAD_PILL);
-        addToItemGroup(ModItemGroups.BSROLEPLAY_ITEM_GROUP, DOLOR_EN_EL_PECHO_CAROLA_MUSIC_DISC);
 
         addToItemGroup(ModItemGroups.BSROLEPLAY_BLOCK_GROUP, TINY_BANDUTY_ITEM);
         addToItemGroup(ModItemGroups.BSROLEPLAY_BLOCK_GROUP, BRONZE_COIN);
